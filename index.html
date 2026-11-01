@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumiere | Luxury Industrial Floors — Pisos Industriais de Alta Resistência</title>
+  <meta name="description" content="Lumiere Pisos Industriais: epóxi, poliuretano-cimento e concreto polido de alta resistência para indústrias, centros logísticos, hospitais, showrooms e data centers. Solicite um diagnóstico técnico gratuito.">
+  <meta name="theme-color" content="#0b0f17">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Símbolo da marca reutilizado no cabeçalho e rodapé -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f1d899"/>
+        <stop offset=".45" stop-color="#c9a45c"/>
+        <stop offset="1" stop-color="#8c7a45"/>
+      </linearGradient>
+      <symbol id="emblem" viewBox="0 0 100 100">
+        <g fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linejoin="round">
+          <polygon points="50,3 91,26.5 91,73.5 50,97 9,73.5 9,26.5"/>
+          <polyline points="16,36 16,69 50,88.5"/>
+          <polyline points="22,40 22,65"/>
+          <polyline points="56,9 84,25 84,62"/>
+          <polyline points="60,16 78,26.5"/>
+          <polygon points="62,29 73,35.5 73,48.5 62,55 51,48.5 51,35.5"/>
+          <line x1="40" y1="84" x2="60" y2="74"/>
+          <line x1="33" y1="80" x2="47" y2="73"/>
+        </g>
+        <text x="21" y="75" font-family="Cinzel, serif" font-weight="700" font-size="66" fill="url(#goldGrad)">L</text>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="brand" aria-label="Lumiere - início">
+        <svg class="brand__emblem"><use href="#emblem"/></svg>
+        <span class="brand__text">
+          <strong>LUMIERE</strong>
+          <small>Luxury Industrial Floors</small>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+        <a href="#landing" class="nav__highlight">Por que ter uma Landing Page?</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== SLIDER ===== -->
+  <section class="hero" id="inicio" aria-roledescription="carrossel" aria-label="Destaques">
+    <div class="slides" id="slides">
+
+      <article class="slide is-active" style="--img:url(../assets/3.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Centros Logísticos &amp; Galpões</span>
+          <h1 class="slide__title">A base sólida que a sua indústria precisa para <em>crescer sem parar.</em></h1>
+          <p class="slide__text">Pisos de alta resistência para milhares de metros quadrados, empilhadeiras de 5 toneladas e operação 24h — sem fissuras, sem poeira, sem paradas.</p>
+          <a href="#contato" class="btn btn--gold">Solicite um Diagnóstico Técnico Gratuito</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/4.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Indústria de Alimentos</span>
+          <h2 class="slide__title">Higiene que passa em <em>qualquer auditoria.</em></h2>
+          <p class="slide__text">Poliuretano-cimento monolítico, sem juntas e com rodapé sanitário: resiste a choque térmico, gordura e limpeza pesada, atendendo às exigências da vigilância sanitária.</p>
+          <a href="#contato" class="btn btn--gold">Quero um piso sanitário</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/5.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Concessionárias &amp; Showrooms</span>
+          <h2 class="slide__title">Seu showroom merece um piso tão <em>impecável quanto os carros.</em></h2>
+          <p class="slide__text">Acabamento espelhado de alto brilho que reflete cada detalhe da vitrine e suporta pneus, macacos e tráfego diário sem perder o visual premium.</p>
+          <a href="#contato" class="btn btn--gold">Valorizar meu showroom</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/6.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Escolas &amp; Instituições</span>
+          <h2 class="slide__title">Reforma rápida, segura e <em>sem parar as aulas.</em></h2>
+          <p class="slide__text">Aplicação planejada por etapas, em fins de semana e férias. Piso antiderrapante, fácil de limpar e pronto para o vai e vem de milhares de alunos.</p>
+          <a href="#contato" class="btn btn--gold">Agendar visita técnica</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/7.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Data Centers &amp; Salas Técnicas</span>
+          <h2 class="slide__title">Zero poeira. Zero estática. <em>Zero risco aos seus servidores.</em></h2>
+          <p class="slide__text">Revestimento epóxi antiestático (ESD) que dissipa cargas elétricas e elimina partículas no ar, protegendo equipamentos críticos 24 horas por dia.</p>
+          <a href="#contato" class="btn btn--gold">Proteger meu data center</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/8.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Hospitais &amp; Clínicas</span>
+          <h2 class="slide__title">Piso asséptico para quem <em>cuida de vidas.</em></h2>
+          <p class="slide__text">Superfície sem poros e sem juntas que impede a proliferação de bactérias, resiste a desinfetantes hospitalares e garante circulação silenciosa de macas.</p>
+          <a href="#contato" class="btn btn--gold">Falar com um engenheiro</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/9.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Prédios Públicos &amp; Alto Fluxo</span>
+          <h2 class="slide__title">Milhares de pessoas por dia. <em>Nenhum sinal de desgaste.</em></h2>
+          <p class="slide__text">Pisos de altíssima resistência à abrasão para centros de atendimento, terminais e shoppings — bonitos no primeiro dia e também depois de dez anos.</p>
+          <a href="#contato" class="btn btn--gold">Solicitar orçamento</a>
+        </div>
+      </article>
+
+      <article class="slide" style="--img:url(../assets/10.jpg)">
+        <div class="slide__overlay"></div>
+        <div class="container slide__content">
+          <span class="slide__tag">Indústria &amp; Manufatura</span>
+          <h2 class="slide__title">Chão de fábrica nível <em>ISO 9001.</em></h2>
+          <p class="slide__text">Demarcação de segurança precisa, resistência a óleos e impacto de peças pesadas. Um piso que organiza o fluxo e eleva o padrão da sua produção.</p>
+          <a href="#contato" class="btn btn--gold">Modernizar minha fábrica</a>
+        </div>
+      </article>
+
+    </div>
+
+    <button class="hero__arrow hero__arrow--prev" id="prev" aria-label="Slide anterior">
+      <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="hero__arrow hero__arrow--next" id="next" aria-label="Próximo slide">
+      <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+
+    <div class="hero__bottom container">
+      <div class="dots" id="dots" role="tablist"></div>
+      <div class="hero__counter"><span id="current">01</span> / <span id="total">08</span></div>
+    </div>
+    <div class="hero__progress"><span id="progress"></span></div>
+    <a href="#numeros" class="scroll-hint" aria-label="Rolar para baixo"><span></span></a>
+  </section>
+
+  <!-- ===== NÚMEROS ===== -->
+  <section class="stats" id="numeros">
+    <div class="container stats__grid">
+      <div class="stat reveal"><strong><span class="count" data-to="15">0</span>+</strong><span>anos de experiência</span></div>
+      <div class="stat reveal" data-delay="1"><strong><span class="count" data-to="1200">0</span>+</strong><span>obras entregues</span></div>
+      <div class="stat reveal" data-delay="2"><strong><span class="count" data-to="2.8" data-decimals="1">0</span> mi m²</strong><span>de pisos aplicados</span></div>
+      <div class="stat reveal" data-delay="3"><strong><span class="count" data-to="10">0</span> anos</strong><span>de garantia estendida</span></div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section section--dark" id="sobre">
+    <div class="container about">
+      <div class="about__media reveal" data-reveal="left">
+        <div class="about__logo-card">
+          <img src="assets/1.jpg" alt="Logotipo Lumiere Luxury Industrial Floors" loading="lazy">
+        </div>
+        <div class="about__badge">
+          <strong>15+</strong>
+          <span>anos no chão<br>de fábrica</span>
+        </div>
+      </div>
+      <div class="about__text">
+        <span class="eyebrow reveal">Nossa História</span>
+        <h2 class="title reveal">Fundados na Resistência, <em>Movidos pela Inovação</em></h2>
+        <p class="reveal">A nossa história não começou em um escritório, mas sim no chão de fábrica. Há mais de 15 anos, percebemos que o maior gargalo de grandes indústrias, centros logísticos e garagens comerciais não estava nas máquinas ou nos veículos, mas sim onde tudo se apoia: <strong>o piso</strong>.</p>
+        <p class="reveal">Vimos operações inteiras pararem por causa de rachaduras, infiltrações e desgastes prematuros gerados por soluções mal planejadas. Sabíamos que o mercado precisava de mais do que apenas concreto e epóxi. Precisava de <strong>engenharia de verdade</strong>.</p>
+        <p class="reveal">Foi assim que nascemos, com a missão de criar superfícies indestrutíveis. De pequenos galpões a complexos industriais de grande porte, transformamos o solo em um ativo estratégico que garante segurança para os colaboradores, agilidade para as empilhadeiras e o fim definitivo das manutenções constantes.</p>
+        <ul class="checks reveal">
+          <li>Engenheiros próprios e equipe certificada</li>
+          <li>Materiais de primeira linha com laudo técnico</li>
+          <li>Cronograma que respeita a sua operação</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container process">
+      <div class="section__head">
+        <span class="eyebrow reveal">Como Trabalhamos</span>
+        <h2 class="title reveal">Engenharia de Superfície: <em>o segredo por trás de um piso perfeito</em></h2>
+        <p class="lead reveal">Não acreditamos em soluções genéricas. Cada operação exige um nível de resistência química, mecânica e térmica diferente. Nosso trabalho é dividido em quatro etapas rigorosas:</p>
+      </div>
+      <ol class="steps">
+        <li class="step reveal" data-delay="0">
+          <span class="step__num">01</span>
+          <h3>Diagnóstico e Análise do Solo</h3>
+          <p>Antes de misturar o primeiro quilo de material, nossos engenheiros avaliam o nível de carga, o tráfego de maquinário e o contato com agentes químicos que o local vai receber.</p>
+        </li>
+        <li class="step reveal" data-delay="1">
+          <span class="step__num">02</span>
+          <h3>Preparação Rigorosa da Base</h3>
+          <p>O segredo de um piso duradouro está no que ninguém vê. Fazemos o tratamento completo da base e das juntas de dilatação para evitar futuras fissuras e infiltrações.</p>
+        </li>
+        <li class="step reveal" data-delay="2">
+          <span class="step__num">03</span>
+          <h3>Aplicação de Alta Tecnologia</h3>
+          <p>Epóxi, Poliuretano (PU) e Concreto Polido de Alta Resistência, aplicados seguindo rigorosamente as normas técnicas de segurança e nivelamento.</p>
+        </li>
+        <li class="step reveal" data-delay="3">
+          <span class="step__num">04</span>
+          <h3>Acabamento e Cura Controlada</h3>
+          <p>Acabamento espelhado ou antiderrapante, demarcações de segurança precisas e tempo de cura otimizado para sua empresa voltar a produzir o quanto antes.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== TRABALHOS ===== -->
+  <section class="section section--marble" id="trabalhos">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow reveal">Portfólio</span>
+        <h2 class="title reveal">Trabalhos que <em>sustentam grandes operações</em></h2>
+        <p class="lead reveal">Cada segmento tem uma exigência diferente. Veja alguns dos ambientes que já transformamos.</p>
+      </div>
+      <div class="gallery">
+        <figure class="work work--wide reveal" data-reveal="zoom">
+          <img src="assets/3.jpg" alt="Galpão logístico com piso epóxi branco de alto brilho" loading="lazy">
+          <figcaption><span>Logística</span><strong>CD TransRápido — 12.000 m²</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom" data-delay="1">
+          <img src="assets/5.jpg" alt="Showroom de carros de luxo com piso espelhado" loading="lazy">
+          <figcaption><span>Showroom</span><strong>Aurum Luxury Auto</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom">
+          <img src="assets/4.jpg" alt="Indústria de alimentos com piso de poliuretano-cimento bege" loading="lazy">
+          <figcaption><span>Alimentos</span><strong>Frigorífico Bom Sabor</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom" data-delay="1">
+          <img src="assets/7.jpg" alt="Data center com piso branco antiestático" loading="lazy">
+          <figcaption><span>Data Center</span><strong>NuvemSul Data Center</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom" data-delay="2">
+          <img src="assets/8.jpg" alt="Equipe aplicando piso asséptico em hospital" loading="lazy">
+          <figcaption><span>Saúde</span><strong>Medicore Luxury Hospital</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom">
+          <img src="assets/6.jpg" alt="Equipe aplicando piso em escola" loading="lazy">
+          <figcaption><span>Educação</span><strong>Colégio Nova Época</strong></figcaption>
+        </figure>
+        <figure class="work work--wide reveal" data-reveal="zoom" data-delay="1">
+          <img src="assets/10.jpg" alt="Fábrica com piso cinza e demarcações amarelas" loading="lazy">
+          <figcaption><span>Manufatura</span><strong>Tech-Forge Precision Manufacturing</strong></figcaption>
+        </figure>
+        <figure class="work reveal" data-reveal="zoom" data-delay="2">
+          <img src="assets/9.jpg" alt="Centro de atendimento ao público com piso claro de alto brilho" loading="lazy">
+          <figcaption><span>Alto Fluxo</span><strong>Centro de Atendimento ao Cidadão</strong></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLIENTES ===== -->
+  <section class="section section--navy" id="clientes">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow reveal">Casos de Sucesso</span>
+        <h2 class="title reveal">Quem Confia na Nossa Base <em>para Chegar Mais Longe</em></h2>
+      </div>
+
+      <div class="cases">
+        <article class="case reveal" data-delay="0">
+          <div class="case__icon">
+            <svg viewBox="0 0 24 24"><path d="M3 17h2l2-9h10l2 9h2M7 17a2 2 0 104 0M13 17a2 2 0 104 0M9 8V5h6v3"/></svg>
+          </div>
+          <span class="case__seg">Logística de Alto Impacto</span>
+          <h3>Centro Logístico TransRápido</h3>
+          <p>Fluxo ininterrupto de empilhadeiras de 5 toneladas e arrasto de pallets em 12.000 m². Aplicamos concreto polido com endurecedor de superfície.</p>
+          <div class="case__result"><strong>-40%</strong><span>na manutenção das rodas do maquinário e zero poeira suspensa</span></div>
+        </article>
+        <article class="case reveal" data-delay="1">
+          <div class="case__icon">
+            <svg viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 9a2 2 0 002 3h10a2 2 0 002-3l-5-9V3M7.5 14h9"/></svg>
+          </div>
+          <span class="case__seg">Alta Resistência a Corrosivos</span>
+          <h3>Indústria Química Sul</h3>
+          <p>Derramamento constante de ácidos destruía o concreto comum. Desenvolvemos um revestimento poliuretano-cimento com proteção química extrema.</p>
+          <div class="case__result"><strong>100%</strong><span>em conformidade com a vigilância sanitária, com total segurança</span></div>
+        </article>
+        <article class="case reveal" data-delay="2">
+          <div class="case__icon">
+            <svg viewBox="0 0 24 24"><path d="M3 4h2l2.5 11h11L21 7H7M9 20a1 1 0 100-2 1 1 0 000 2zM17 20a1 1 0 100-2 1 1 0 000 2z"/></svg>
+          </div>
+          <span class="case__seg">Estética e Tráfego de Pedestres</span>
+          <h3>Supermercado Preço Bom</h3>
+          <p>Estacionamento subterrâneo e área de vendas com sistema autonivelante epóxi cinza claro e demarcações em amarelo.</p>
+          <div class="case__result"><strong>+ luz</strong><span>espaço amplo, fácil de limpar e convidativo para os consumidores</span></div>
+        </article>
+      </div>
+
+      <div class="testimonial reveal">
+        <svg class="testimonial__quote" viewBox="0 0 24 24"><path d="M7 7h4v4c0 3-1.5 5-4 6M15 7h4v4c0 3-1.5 5-4 6"/></svg>
+        <blockquote>“Paramos a operação por apenas um fim de semana e ganhamos um piso que, três anos depois, continua como novo. A Lumiere entendeu nosso fluxo antes de propor qualquer material.”</blockquote>
+        <cite><strong>Ricardo Almeida</strong> — Gerente de Operações, TransRápido</cite>
+      </div>
+
+      <div class="logos" aria-label="Empresas atendidas">
+        <div class="logos__track">
+          <span>TransRápido</span><span>Química Sul</span><span>Preço Bom</span><span>Aurum Auto</span><span>Medicore</span><span>Tech-Forge</span><span>NuvemSul</span><span>Nova Época</span><span>Bom Sabor</span><span>Atlas Cargo</span>
+          <span aria-hidden="true">TransRápido</span><span aria-hidden="true">Química Sul</span><span aria-hidden="true">Preço Bom</span><span aria-hidden="true">Aurum Auto</span><span aria-hidden="true">Medicore</span><span aria-hidden="true">Tech-Forge</span><span aria-hidden="true">NuvemSul</span><span aria-hidden="true">Nova Época</span><span aria-hidden="true">Bom Sabor</span><span aria-hidden="true">Atlas Cargo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUTOS ===== -->
+  <section class="section section--dark" id="produtos">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow reveal">Produtos &amp; Sistemas</span>
+        <h2 class="title reveal">A especificação certa <em>para cada operação</em></h2>
+        <p class="lead reveal">Trabalhamos com as tecnologias mais avançadas do mercado e indicamos o sistema ideal após o diagnóstico técnico.</p>
+      </div>
+      <div class="products">
+        <article class="product reveal">
+          <span class="product__swatch" style="--sw:linear-gradient(135deg,#f4f5f7,#c9ccd0)"></span>
+          <h3>Epóxi Autonivelante</h3>
+          <p>Superfície lisa, contínua e de alto brilho. Ideal para indústrias leves, laboratórios, showrooms e áreas comerciais.</p>
+          <ul><li>Espessura 2 a 4 mm</li><li>Alta resistência química</li><li>Mais de 20 cores</li></ul>
+        </article>
+        <article class="product reveal" data-delay="1">
+          <span class="product__swatch" style="--sw:linear-gradient(135deg,#e8dcc4,#b9a57f)"></span>
+          <h3>Poliuretano-Cimento (PU)</h3>
+          <p>O sistema mais robusto para indústrias de alimentos, frigoríficos e químicas. Suporta choque térmico de -40 °C a 120 °C.</p>
+          <ul><li>Espessura 4 a 9 mm</li><li>Monolítico e sanitário</li><li>Rodapé curvo integrado</li></ul>
+        </article>
+        <article class="product reveal" data-delay="2">
+          <span class="product__swatch" style="--sw:linear-gradient(135deg,#6b6f75,#2b2e33)"></span>
+          <h3>Concreto Polido</h3>
+          <p>Densificado e polido mecanicamente até o brilho espelhado. Excelente para centros logísticos e grandes áreas.</p>
+          <ul><li>Baixíssima manutenção</li><li>Elimina poeira</li><li>Ótimo custo por m²</li></ul>
+        </article>
+        <article class="product reveal">
+          <span class="product__swatch" style="--sw:linear-gradient(135deg,#dfe4ea,#9aa6b4)"></span>
+          <h3>Epóxi Antiestático (ESD)</h3>
+          <p>Dissipa cargas eletrostáticas e protege equipamentos sensíveis. Indicado para data centers, eletrônicos e salas limpas.</p>
+          <ul><li>Condutivo ou dissipativo</li><li>Livre de partículas</li><li>Laudo de resistividade</li></ul>
+        </article>
+        <article class="product reveal" data-delay="1">
+          <span class="product__swatch" style="--sw:repeating-linear-gradient(45deg,#2b2e33 0 10px,#e1b632 10px 20px)"></span>
+          <h3>Demarcação e Sinalização</h3>
+          <p>Faixas de segurança, rotas de fuga, vagas e áreas de risco com tinta de alta durabilidade conforme NR-26.</p>
+          <ul><li>Layout técnico</li><li>Cores normatizadas</li><li>Aplicação de precisão</li></ul>
+        </article>
+        <article class="product reveal" data-delay="2">
+          <span class="product__swatch" style="--sw:radial-gradient(circle at 30% 30%,#c9a45c 0 6%,transparent 7%),radial-gradient(circle at 70% 60%,#c9a45c 0 5%,transparent 6%),linear-gradient(135deg,#3a3d42,#1a1c20)"></span>
+          <h3>Granilite &amp; Decorativos</h3>
+          <p>Acabamentos com flocos, metálicos e granilite para ambientes que unem resistência industrial e design de luxo.</p>
+          <ul><li>Efeito mármore e metálico</li><li>Projetos personalizados</li><li>Visual premium</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POR QUE TER UMA LANDING PAGE ===== -->
+  <section class="section section--midnight lp" id="landing">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow reveal">Marketing Digital</span>
+        <h2 class="title reveal">Por que ter uma <em>Landing Page?</em></h2>
+        <p class="lead reveal">Hoje, quase toda compra B2B começa com uma busca no Google. A landing page é a sua <strong>porta de entrada digital</strong>: é ela que transforma quem pesquisa em quem liga para você.</p>
+      </div>
+
+      <!-- Jornada do cliente -->
+      <div class="journey">
+        <div class="journey__line"><span></span></div>
+        <div class="journey__step reveal" data-delay="0">
+          <div class="journey__icon"><svg viewBox="0 0 24 24"><path d="M12 3a6 6 0 00-3.5 10.9V17h7v-3.1A6 6 0 0012 3zM9.5 20h5"/></svg></div>
+          <h3>1. Necessidade</h3>
+          <p>O gerente da fábrica percebe rachaduras no piso e precisa de uma solução.</p>
+        </div>
+        <div class="journey__step reveal" data-delay="1">
+          <div class="journey__icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg></div>
+          <h3>2. Busca no Google</h3>
+          <p>Ele digita <em>“piso industrial epóxi São Paulo”</em> no celular.</p>
+        </div>
+        <div class="journey__step reveal" data-delay="2">
+          <div class="journey__icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 13h6M7 16h4"/></svg></div>
+          <h3>3. Landing Page</h3>
+          <p>Encontra sua página no topo: fotos reais, cases e autoridade técnica.</p>
+        </div>
+        <div class="journey__step reveal" data-delay="3">
+          <div class="journey__icon"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4-1.1L4 20z"/></svg></div>
+          <h3>4. Contato</h3>
+          <p>Um clique no WhatsApp ou no formulário. Sem atrito, sem espera.</p>
+        </div>
+        <div class="journey__step reveal" data-delay="4">
+          <div class="journey__icon journey__icon--gold"><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg></div>
+          <h3>5. Novo Cliente</h3>
+          <p>Orçamento enviado, contrato fechado. O ciclo recomeça todos os dias.</p>
+        </div>
+      </div>
+
+      <!-- Como funciona o Google -->
+      <div class="google">
+        <div class="google__explain">
+          <h3 class="subtitle reveal">Como o Google decide <em>quem aparece primeiro?</em></h3>
+          <p class="reveal">O Google funciona como uma enorme biblioteca. Para mostrar o melhor resultado, ele segue três etapas:</p>
+          <div class="g-steps">
+            <div class="g-step reveal" data-reveal="left">
+              <span class="g-step__n">1</span>
+              <div><h4>Rastreamento</h4><p>Robôs (o “Googlebot”) percorrem a internet seguindo links e descobrem a sua página.</p></div>
+            </div>
+            <div class="g-step reveal" data-reveal="left" data-delay="1">
+              <span class="g-step__n">2</span>
+              <div><h4>Indexação</h4><p>O conteúdo é lido e organizado: textos, imagens, títulos e palavras-chave como “piso epóxi”.</p></div>
+            </div>
+            <div class="g-step reveal" data-reveal="left" data-delay="2">
+              <span class="g-step__n">3</span>
+              <div><h4>Ranqueamento</h4><p>A cada busca, o algoritmo ordena as páginas pela relevância, qualidade e experiência do usuário.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="serp reveal" data-reveal="right" aria-label="Exemplo ilustrativo de resultado de busca">
+          <div class="serp__bar">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>
+            <span id="typed" data-text="piso industrial epóxi são paulo"></span><i class="caret"></i>
+          </div>
+          <div class="serp__result serp__result--top">
+            <span class="serp__rank">#1</span>
+            <small>lumierepisos.com.br</small>
+            <strong>Lumiere | Pisos Industriais de Alta Resistência</strong>
+            <p>Epóxi, PU-cimento e concreto polido. Diagnóstico técnico gratuito. +1.200 obras entregues…</p>
+            <span class="serp__stars">★★★★★ <em>4,9 (312 avaliações)</em></span>
+          </div>
+          <div class="serp__result"><small>concorrente-a.com.br</small><strong>Pisos e Revestimentos em Geral</strong><p>Trabalhamos com diversos tipos de pisos…</p></div>
+          <div class="serp__result"><small>concorrente-b.com.br</small><strong>Empresa de Pintura e Reformas</strong><p>Orçamento sem compromisso…</p></div>
+          <div class="serp__note">Cerca de <strong>1 em cada 4 cliques</strong> vai para o 1º resultado orgânico — e a maioria das pessoas nunca passa da primeira página.</div>
+        </div>
+      </div>
+
+      <!-- Pilares do SEO -->
+      <h3 class="subtitle subtitle--center reveal">Os 4 pilares do <em>SEO</em> (Otimização para Buscadores)</h3>
+      <div class="pillars">
+        <div class="pillar reveal" data-delay="0">
+          <svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>
+          <h4>Técnico</h4>
+          <p>Página rápida, segura (HTTPS) e perfeita no celular. O Google prioriza sites mobile-first.</p>
+          <div class="meter"><span style="--w:95%"></span></div>
+        </div>
+        <div class="pillar reveal" data-delay="1">
+          <svg viewBox="0 0 24 24"><path d="M5 4h10l4 4v12H5zM15 4v4h4M8 12h8M8 16h6"/></svg>
+          <h4>Conteúdo</h4>
+          <p>Textos que respondem às dúvidas reais do cliente, com as palavras-chave que ele usa na busca.</p>
+          <div class="meter"><span style="--w:90%"></span></div>
+        </div>
+        <div class="pillar reveal" data-delay="2">
+          <svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg>
+          <h4>Autoridade</h4>
+          <p>Avaliações, cases, links de outros sites e menções que provam que sua empresa é referência.</p>
+          <div class="meter"><span style="--w:80%"></span></div>
+        </div>
+        <div class="pillar reveal" data-delay="3">
+          <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <h4>SEO Local</h4>
+          <p>Perfil no Google Meu Negócio e mapa integrados para aparecer em “perto de mim”.</p>
+          <div class="meter"><span style="--w:88%"></span></div>
+        </div>
+      </div>
+
+      <!-- Funil e gráfico -->
+      <div class="growth">
+        <div class="funnel reveal" data-reveal="left">
+          <h3 class="subtitle">O funil que <em>gera vendas</em></h3>
+          <div class="funnel__row" style="--w:100%"><span>Visitantes vindos do Google</span><strong class="count" data-to="1000">0</strong></div>
+          <div class="funnel__row" style="--w:76%"><span>Leram a página e os cases</span><strong class="count" data-to="620">0</strong></div>
+          <div class="funnel__row" style="--w:52%"><span>Pediram contato</span><strong class="count" data-to="80">0</strong></div>
+          <div class="funnel__row" style="--w:36%"><span>Receberam orçamento</span><strong class="count" data-to="30">0</strong></div>
+          <div class="funnel__row funnel__row--gold" style="--w:24%"><span>Novos clientes</span><strong class="count" data-to="9">0</strong></div>
+          <small class="note">Exemplo ilustrativo de um mês.</small>
+        </div>
+
+        <div class="chart reveal" data-reveal="right">
+          <h3 class="subtitle">Tráfego orgânico <em>crescendo mês a mês</em></h3>
+          <svg viewBox="0 0 400 220" class="chart__svg" role="img" aria-label="Gráfico ilustrativo de crescimento de visitas orgânicas em 12 meses">
+            <g class="chart__grid">
+              <line x1="30" y1="40" x2="390" y2="40"/><line x1="30" y1="90" x2="390" y2="90"/><line x1="30" y1="140" x2="390" y2="140"/><line x1="30" y1="190" x2="390" y2="190"/>
+            </g>
+            <path class="chart__area" d="M30,185 L62,182 L95,176 L128,170 L160,160 L193,150 L226,134 L258,118 L291,98 L324,80 L357,62 L390,42 L390,190 L30,190 Z"/>
+            <path class="chart__line" d="M30,185 L62,182 L95,176 L128,170 L160,160 L193,150 L226,134 L258,118 L291,98 L324,80 L357,62 L390,42"/>
+            <circle class="chart__dot" cx="390" cy="42" r="5"/>
+            <g class="chart__labels">
+              <text x="30" y="208">Mês 1</text><text x="193" y="208" text-anchor="middle">Mês 6</text><text x="390" y="208" text-anchor="end">Mês 12</text>
+            </g>
+          </svg>
+          <p class="chart__caption">Diferente de anúncios, que param quando o orçamento acaba, o SEO <strong>acumula resultado</strong>: cada mês a página ganha mais autoridade e mais visitas gratuitas.</p>
+          <small class="note">Projeção ilustrativa.</small>
+        </div>
+      </div>
+
+      <!-- Benefícios -->
+      <div class="benefits">
+        <div class="benefit reveal"><strong>24/7</strong><span>Sua vitrine aberta todos os dias, inclusive à noite e nos fins de semana.</span></div>
+        <div class="benefit reveal" data-delay="1"><strong>100%</strong><span>Mensurável: você sabe quantos visitaram, de onde vieram e quantos pediram orçamento.</span></div>
+        <div class="benefit reveal" data-delay="2"><strong>1º</strong><span>Primeira impressão profissional que gera credibilidade antes mesmo da visita técnica.</span></div>
+        <div class="benefit reveal" data-delay="3"><strong>R$</strong><span>Custo por cliente menor que feiras, catálogos impressos e anúncios contínuos.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section section--dark contact" id="contato">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <span class="eyebrow reveal">Contato</span>
+        <h2 class="title reveal">Pronto para acabar com as <em>paradas de manutenção</em> no seu piso?</h2>
+        <p class="lead reveal">Fale agora com um de nossos engenheiros e descubra a melhor especificação para o seu projeto.</p>
+        <ul class="contact__list">
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg><div><small>Telefone</small><a href="tel:+551134567890">(11) 3456-7890</a></div></li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4-1.1L4 20z"/></svg><div><small>WhatsApp</small><a href="https://wa.me/5511987654321" target="_blank" rel="noopener">(11) 98765-4321</a></div></li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><small>E-mail</small><a href="mailto:contato@lumierepisos.com.br">contato@lumierepisos.com.br</a></div></li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><small>Endereço</small><span>Av. das Indústrias, 1500 — Tamboré, Barueri/SP</span></div></li>
+        </ul>
+        <a href="https://wa.me/5511987654321?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20em%20pisos." target="_blank" rel="noopener" class="btn btn--whats reveal">
+          <svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4-1.1L4 20z"/></svg>
+          Falar com Especialista no WhatsApp
+        </a>
+      </div>
+
+      <form class="form reveal" data-reveal="right" id="form" novalidate>
+        <h3>Diagnóstico Técnico Gratuito</h3>
+        <p>Responderemos em até 2 horas úteis.</p>
+        <label>Nome<input type="text" name="nome" required placeholder="Seu nome"></label>
+        <label>Empresa<input type="text" name="empresa" placeholder="Nome da empresa"></label>
+        <div class="form__row">
+          <label>Telefone<input type="tel" name="tel" required placeholder="(00) 00000-0000"></label>
+          <label>Área (m²)<input type="number" name="area" min="1" placeholder="Ex.: 2000"></label>
+        </div>
+        <label>Segmento
+          <select name="segmento">
+            <option>Logística / Galpão</option>
+            <option>Indústria de Alimentos</option>
+            <option>Indústria / Manufatura</option>
+            <option>Showroom / Comércio</option>
+            <option>Hospital / Clínica</option>
+            <option>Data Center</option>
+            <option>Escola / Prédio Público</option>
+            <option>Outro</option>
+          </select>
+        </label>
+        <label>Mensagem<textarea name="msg" rows="3" placeholder="Conte um pouco sobre o seu projeto"></textarea></label>
+        <button type="submit" class="btn btn--gold btn--block">Enviar solicitação</button>
+        <div class="form__ok" id="formOk" role="status" hidden>
+          <svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>
+          Obrigado! Um engenheiro entrará em contato em breve.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="brand">
+        <svg class="brand__emblem"><use href="#emblem"/></svg>
+        <span class="brand__text"><strong>LUMIERE</strong><small>Luxury Industrial Floors</small></span>
+      </a>
+      <nav class="footer__nav">
+        <a href="#sobre">Sobre</a><a href="#trabalhos">Trabalhos</a><a href="#clientes">Clientes</a><a href="#produtos">Produtos</a><a href="#contato">Contato</a>
+      </nav>
+      <small>© 2026 Lumiere Pisos Industriais Ltda. · CNPJ 00.000.000/0001-00 · Site fictício para demonstração.</small>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511987654321" target="_blank" rel="noopener" class="whats-float" aria-label="Conversar no WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4-1.1L4 20z"/><path d="M9 9.5c0 2.5 2 4.5 4.5 4.5l1-1.2 1.5.7-.3 1.3c-3.8.3-7-2.9-6.7-6.7l1.3-.3.7 1.5z" fill="currentColor" stroke="none"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
