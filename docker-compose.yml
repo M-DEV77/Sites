@@ -1,0 +1,8 @@
+services:
+  lumiere:
+    build: .
+    image: lumiere-site
+    container_name: lumiere-site
+    restart: unless-stopped
+    ports:
+      - "8080:80"
